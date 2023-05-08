@@ -202,5 +202,9 @@ namespace MaquinaDeDoces
             return false;
         }//fim do solicitarProduto
 
+        internal void CadastrarProduto(int codigo, string nome, string descricao, double preco, int quantidade, DateTime data)
+        {
+            throw new NotImplementedException();
+        }
     }//fim da classe
 }//fim do projeto
